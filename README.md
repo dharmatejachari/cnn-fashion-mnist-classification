@@ -20,6 +20,7 @@ Fashion-MNIST dataset containing 70,000 grayscale images of clothing items acros
 
 ## Results
 The model achieved approximately **90% test accuracy**.
+![Prediction Output](results/prediction_output.png)
 
 ## Example Prediction
 The model predicts the class of a clothing image and compares it with the actual label.
@@ -29,7 +30,3 @@ The model predicts the class of a clothing image and compares it with the actual
 ```bash
 pip install tensorflow matplotlib numpy
 python cnn_fashion_mnist.py
-
-## Results
-
-![Prediction Output](results/prediction_output.png)
